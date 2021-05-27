@@ -67,9 +67,9 @@ int qlaberrorcolour[] = {GRB_COLOR_RED, GRB_COLOR_BLACK};
 int alloffcolor[] = {GRB_COLOR_BLACK, GRB_COLOR_BLACK};
 int wificolor[] = {GRB_COLOR_BLUE, GRB_COLOR_BLACK};
 
-int currentBrightness = 20;
+int currentBrightness = 20; // DO NOT GO ABOVE 20 ON AN M5!!!
 
-//this is the array that stores the number layout
+//this is the array that stores the LED looks
 int number[19][25] = {{
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
