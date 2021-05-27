@@ -24,7 +24,7 @@ const char * networkPass = "MyWiFiPaSsWoRd";
 
 // OSC Settings
 const IPAddress outIp(192,168,1,100);        // Target IP of your QLab machine
-const unsigned int outPort = 53000;          // remote port to receive OSC (default 53000 for QLab)
+const unsigned int outPort = 53000;          // remote port to send OSC commands to (default 53000 for QLab)
 const unsigned int localPort = 53001;        // local port to listen for OSC replies (default 53001 for QLab)
 
 // QLab Settings
