@@ -60,9 +60,8 @@ int GRB_COLOR_GREEN = 0xff0000;
 int GRB_COLOR_BLUE = 0x0000ff;
 int GRB_COLOR_PURPLE = 0x008080;
 
-int numbercolor = GRB_COLOR_ORANGE;
-int standbycolor[] = {GRB_COLOR_RED, numbercolor};
-int gocolor[] = {GRB_COLOR_GREEN, numbercolor};
+int standbycolor[] = {GRB_COLOR_RED, GRB_COLOR_BLACK};
+int gocolor[] = {GRB_COLOR_GREEN, GRB_COLOR_BLACK};
 int qlaberrorcolour[] = {GRB_COLOR_RED, GRB_COLOR_BLACK};
 int alloffcolor[] = {GRB_COLOR_BLACK, GRB_COLOR_BLACK};
 int wificolor[] = {GRB_COLOR_BLUE, GRB_COLOR_BLACK};
